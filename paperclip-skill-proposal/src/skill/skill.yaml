@@ -1,0 +1,9 @@
+id: proposal-drafting
+name: Proposal Drafting
+description: Draft client proposals from your templates, in your firm's voice.
+when_to_use: >
+  Use when the user wants to draft a proposal/SOW for an opportunity. Ingest
+  templates once (per project type); then drafting auto-selects the best-fit
+  template and writes in the firm's voice using past proposals from memory.
+version: 0.1.0
+author: paperclip-skill-proposal

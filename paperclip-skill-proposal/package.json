@@ -1,0 +1,24 @@
+{
+  "name": "paperclip-skill-proposal",
+  "version": "0.1.0",
+  "description": "Draft client proposals from your own templates and voice. Per-template profiles, opportunity-based selection, drafting backed by the agent memory brain.",
+  "type": "module",
+  "scripts": {
+    "ingest-template": "tsx src/cli/ingest-template.ts",
+    "list-profiles": "tsx src/cli/list-profiles.ts",
+    "draft": "tsx src/cli/draft.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "mammoth": "^1.8.0",
+    "unpdf": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}
